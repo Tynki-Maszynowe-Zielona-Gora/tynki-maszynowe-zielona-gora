@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tynki Maszynowe Zielona Góra – WafelBud | Tynkowanie, Elewacje, Adaptacje</title>
+  <title>Tynki Maszynowe Zielona Góra – Usługi Budowlane| Tynkowanie, Elewacje, Adaptacje</title>
   <meta name="description" content="Profesjonalne tynki maszynowe w Zielonej Górze i okolicach. WafelBud – szybkie terminy, równe ściany, czysty montaż. Darmowa wycena: 533 611 028." />
   
   <!-- AdSense -->
@@ -51,7 +51,7 @@
     .btn.outline{background:transparent;color:var(--accent);border:1px solid var(--accent)}
     .hero{max-width:1100px;margin:28px auto;padding:0 20px}
     .banner{position:relative;overflow:hidden;border-radius:16px;box-shadow:var(--shadow)}
-    .banner img{width:100%;height:420px;object-fit:cover}
+    .banner img{width:100%;height:420px;object-fit:contain;background:#161a22}
     .banner .tag{position:absolute;left:16px;bottom:16px;background:rgba(0,0,0,.6);padding:10px 14px;border-radius:12px;border:1px solid #2a3340}
     main{max-width:1100px;margin:30px auto;padding:0 20px;display:grid;grid-template-columns:1.1fr .9fr;gap:26px}
     @media (max-width:980px){main{grid-template-columns:1fr;}}
@@ -78,20 +78,29 @@
 
   <header>
     <div class="wrap">
-      <div class="brand">WafelBud • Tynki Maszynowe</div>
+      <div class="brand">
+        <img src="logo.png" alt="WafelBud – Tynki Maszynowe" style="height:60px;width:auto;border-radius:8px;">
+        <div class="title">Usługi Budowlane • Tynki Maszynowe.Prace Remontowo-wykończeniowe</div>
+      <div class="usp">
+      <b>Zielona Góra okolice</b>
+      <span>• Dogodne terminy</span>
+      <span>• Zabezpieczanie Stolsrki okiennej oraz drzwiowej </span>
+      <span>• Czysta i bezpieczna praca</span>
+    </div>
+      </div>
       <div class="cta">
         <a class="btn outline" href="tel:533611028">Zadzwoń: 533 611 028</a>
         <a class="btn" href="https://wa.me/48533611028" target="_blank" rel="noopener">WhatsApp</a>
       </div>
     </div>
-  </header>
+</header>
 
   <div class="hero">
     <div class="banner">
-      <img src="stronka1.jpeg" alt="Tynki maszynowe – realizacja WafelBud">
+      <img src="logo.png" alt="Tynki maszynowe – realizacja WafelBud">
       <div class="tag">
-        <strong>Zielona Góra i okolice</strong><br>
-        Szybkie terminy • Równe ściany • Czysta robota
+        <strong>KONTAKT</strong><br>
+        Zapraszam do Kontaktu Paweł Szymczak 533-611-028
       </div>
     </div>
   </div>
@@ -100,8 +109,10 @@
     <!-- KOLUMNA LEWA -->
     <section aria-labelledby="o-nas">
       <h1 id="o-nas">Tynki Maszynowe Zielona Góra – fachowo od A do Z</h1>
-      <p>Robimy tynki maszynowe gipsowe i cementowo‑wapienne dla domów jednorodzinnych i inwestycji. Dbamy o czystość, dokładność i terminy. Pracujemy w <strong>Zielonej Górze</strong> i w promieniu ok. 60 km.</p>
-      <ul class="check">
+      <p>Wykonujemy tynki maszynowe gipsowe oraz cementowo‑wapienne dla domów jednorodzinnych i inwestycji przemysłowych.    
+      Dbamy o czystość, dokładność i terminy. Pracujemy w <strong>Zielonej Górze</strong> i w promieniu ok. 60 km.</p>
+      
+     <ul class="check">
         <li>Dokładne przygotowanie podłoża i narożników</li>
         <li>Równe powierzchnie gotowe pod gładź lub malowanie</li>
         <li>Wycena i doradztwo gratis</li>
@@ -188,26 +199,51 @@
     </section>
 
     <section aria-labelledby="wideo" class="video">
-      <h2 id="wideo">Filmy</h2>
-      <video controls muted poster="stronka2.jpeg">
-        <source src="filmprzedwykonaniem.mp4" type="video/mp4">
-      </video>
-      <video controls muted poster="stronka3.jpeg">
-        <source src="filmpowykonaniu.mp4" type="video/mp4">
-      </video>
-      <video controls muted poster="tynki1.jpeg">
-        <source src="wstemp.mp4" type="video/mp4">
-      </video>
-      <video controls muted poster="tynki2.jpeg">
-        <source src="koniec.mp4" type="video/mp4">
-      </video>
+  <h2 id="wideo">Filmy z Naszych Realizacji</h2>
 
-      <div class="grid">
-        <iframe loading="lazy" src="https://www.youtube.com/embed/6N_n-a9FsoM" title="Elewacja – Przed tynkami" allowfullscreen></iframe>
-        <iframe loading="lazy" src="https://www.youtube.com/embed/LhkbybkKpTI" title="Elewacja – W trakcie" allowfullscreen></iframe>
-        <iframe loading="lazy" src="https://www.youtube.com/embed/XxBwQggGwzk" title="Elewacja – Po tynkach i malowaniu" allowfullscreen></iframe>
-      </div>
-    </section>
+  <!-- 4 główne filmy -->
+  <div class="grid g2">
+    <video controls muted poster="filmprzedwykonaniem.jpg">
+      <source src="filmprzedwykonaniem.mp4" type="video/mp4">
+    </video>
+
+    <video controls muted poster="filmpowykonaniu.jpg">
+      <source src="filmpowykonaniu.mp4" type="video/mp4">
+    </video>
+
+    <video controls muted poster="wstemp.jpg">
+      <source src="wstemp.mp4" type="video/mp4">
+    </video>
+
+    <video controls muted poster="koniec.jpg">
+      <source src="koniec.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- Adaptacja poddasza -->
+  <h3 style="margin-top:20px">Adaptacja poddasza</h3>
+  <div class="grid g3">
+    <video controls muted poster="adaptacja_poddasza1.jpg">
+      <source src="adaptacja_poddasza1.mp4" type="video/mp4">
+    </video>
+
+    <video controls muted poster="adaptacja_poddasza2.jpg">
+      <source src="adaptacja_poddasza2.mp4" type="video/mp4">
+    </video>
+
+    <video controls muted poster="adaptacja_poddasza3.jpg">
+      <source src="adaptacja_poddasza3.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- Filmy z YouTube -->
+  <h3 style="margin-top:20px">Elewacja – etapy prac</h3>
+  <div class="grid g3">
+    <iframe loading="lazy" src="https://www.youtube.com/embed/6N_n-a9FsoM" title="Elewacja – Przed tynkami" allowfullscreen></iframe>
+    <iframe loading="lazy" src="https://www.youtube.com/embed/LhkbybkKpTI" title="Elewacja – W trakcie" allowfullscreen></iframe>
+    <iframe loading="lazy" src="https://www.youtube.com/embed/XxBwQggGwzk" title="Elewacja – Po tynkach i malowaniu" allowfullscreen></iframe>
+  </div>
+</section>
 
     <section aria-labelledby="faq">
       <h2 id="faq">FAQ – najczęstsze pytania</h2>
